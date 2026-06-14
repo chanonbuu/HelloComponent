@@ -1,12 +1,17 @@
 <script setup>
 import Hello from './components/HelloComponent.vue'
 import TemplateSyntax from './components/TemplateSyntax.vue'
+import ReactivityFundamentals from './components/ReactivityFundamentals.vue'
 </script>
 
 <template>
   <div>ขอให้ My order รับฝึกงานครับ</div>
+  <hr>
   <span><Hello></Hello></span>
+  <hr>
   <TemplateSyntax></TemplateSyntax>
+  <hr>
+  <ReactivityFundamentals></ReactivityFundamentals>
 </template>
 
 <style scoped></style>
