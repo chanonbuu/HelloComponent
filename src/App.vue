@@ -2,6 +2,7 @@
 import Hello from './components/HelloComponent.vue'
 import TemplateSyntax from './components/TemplateSyntax.vue'
 import ReactivityFundamentals from './components/ReactivityFundamentals.vue'
+import FormInputBindings from './components/FormInputBindings.vue'
 </script>
 
 <template>
@@ -12,6 +13,8 @@ import ReactivityFundamentals from './components/ReactivityFundamentals.vue'
   <TemplateSyntax></TemplateSyntax>
   <hr>
   <ReactivityFundamentals></ReactivityFundamentals>
+  <hr>
+  <FormInputBindings></FormInputBindings>
 </template>
 
 <style scoped></style>
